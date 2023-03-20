@@ -202,7 +202,7 @@ Design and code a templated class named `Database`; this class has only one temp
   }
   ```
 
-  To access the individual bytes in the parameter use the conversion operator (`reinterpret_cast<char*>(&value)`).  The number of bytes in a `long long` object cand be found using `sizeof` operator.
+  To access the individual bytes in the parameter use the conversion operator (`reinterpret_cast<char*>(&value)`).  The number of bytes in a `long long` object can be found using `sizeof` operator.
 
 This is a simple encryption procedure (not to be used for security since is very easy to break by modern computers); more details at [https://kylewbanks.com/blog/Simple-XOR-Encryption-Decryption-in-Cpp](https://kylewbanks.com/blog/Simple-XOR-Encryption-Decryption-in-Cpp).
 
@@ -215,7 +215,7 @@ When the program is started with the command:
 ```
 ws data_str.txt data_num_str.txt
 ```
-the output should look like the one from the `sample_output.txt` file.
+the output should look like the one from the `sample_output.txt` file (**on the second run**, first run will show that the backup files are empty).
 
 ### Test Your Code
 
