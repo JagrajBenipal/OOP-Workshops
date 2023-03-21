@@ -213,7 +213,7 @@ Add any other **private** members that your design requires (without changing th
 
 When the program is started with the command:
 ```
-ws data_str.txt data_num_str.txt
+ws data_str.txt data_num.txt
 ```
 the output should look like the one from the `sample_output.txt` file (**on the second run**, first run will show that the backup files are empty).
 
